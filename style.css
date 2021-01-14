@@ -10,17 +10,21 @@ body {
    background-color:  #dbcee2;
    color: #666;
    font-family: sans-serif;
-   display: flex;
+/*    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center; */
    height: 100%;
    font-family: 'Poppins', sans-serif;
+   position: relative;
 }
 
 .container {
    max-width: 1160px;
    display: flex;
    flex-direction: row;
+   position: absolute;
+   left: 50%;
+   transfrom: translateX(-50%);
 }
 
 .form {
